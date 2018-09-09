@@ -1,1 +1,206 @@
 /* Insert your styles here */
+	body
+	{
+        background-image: url(../../../media/Background.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    header img
+    {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 10%;
+        width: 20%;
+        height: 40px;
+    }
+    nav
+    {
+        border-bottom: 1px solid grey;
+        border-top: 1px solid grey;
+        overflow: hidden;
+        height: 80px;
+    }
+    nav a.normalLink
+    {
+        float: left;
+        padding: 30px 30px;
+        text-align: center;
+        color: dimgrey;
+        font-family: Arial, Helvetica, sans-serif;
+        text-decoration: none;
+        height: 40px;
+        font-size: 20px;
+    }
+    nav a.normalLink:hover
+    {
+        text-decoration: underline;
+    }
+    nav a.login{
+        float: right;
+        padding: 30px 30px;
+        text-align: center;
+        color: darkgrey;
+        font-family: Arial, Helvetica, sans-serif;
+        text-decoration: none;
+        height: 40px;
+        font-size: 20px;
+    }
+    nav a.login:hover  
+    {
+        text-decoration: underline;
+    }
+
+    article.column1{
+        float: left;
+        width: 30%;
+        padding: 15px;
+        outline-style: dashed;
+        outline-color: dimgrey;
+    }
+    article.column2{
+        float: left;
+        width: 30%;
+        padding: 15px;
+        outline-style: dashed;
+        outline-color: dimgrey;
+    }
+    article.column3{
+        float: left;
+        width: 30%;
+        padding: 15px;
+        outline-style: dashed;
+        outline-color: dimgrey;
+    }
+    article.row::after{
+        content: "";
+        display: table;
+        clear: both;
+    }
+
+
+    article.shoes{
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+    }
+    article.shoes div.gallery{
+        float: left;
+        margin: 5px;
+        width: 300px;
+    }
+    article.shoes div.gallery img{
+        width: 100%;
+        height: 166px;
+    }
+    article.shoes div.gallery img:hover{
+        box-shadow: 1px 1px grey;
+    }
+    article.shoes div.description{
+        padding: 15px;
+        text-align: center;
+    }
+
+
+    main.apparel{
+        margin: auto;
+        float: left;
+        width: 100%;
+        text-align: center;
+    }
+    article.apparel
+    {
+          margin-left: auto;
+          margin-right: auto;
+          width: 50%;
+    }
+    article.apparel div.gallery{
+        float: left;
+        margin: 5px;
+        width: 300px;
+    }
+    article.apparel div.gallery img{
+        width: 100%;
+        height: auto;
+    }
+    article.apparel div.gallery img:hover{
+        box-shadow: 1px 1px grey;
+    }
+    article.apparel div.description{
+        padding: 15px;
+        text-align: center;
+    }
+
+
+    article.product {
+        position: relative;
+        margin: 16px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 70%;
+        height: 600px;
+    }
+    article.product div.img{
+        position: absolute;
+        left: 0;
+        margin: 16px;
+        width: 40%;
+        height: 70%;
+    }
+    article.product div.img img{
+        overflow: auto;
+    }
+    article.product div.desc{
+        position: absolute;
+        right: 0;
+        margin: 16px;
+        width: 50%;
+        height: 70%;
+        text-align: center;
+    }
+    article.product div.desc p{
+        font-family: "Times New Roman", Times, serif;
+    }
+
+
+    article.login{
+        position: relative;
+        margin: 16px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 100px;
+        width: 25%;
+        height: 600px;
+    }
+    input.login[type=email]{
+        width: 100%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid blue;
+        border-radius: 4px;
+    }
+    input.login[type=password]{
+        width: 100%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid blue;
+        border-radius: 4px;
+    }
+    input.login[type=submit]{
+        background-color: white;
+        border: 1px solid blue;
+        width: 108%;
+        padding: 12px 20px;
+        display: inline-block;
+        border-radius: 4px;
+        margin: 8px 0;
+        cursor: pointer;
+    }
+
+    footer
+    {
+          position: fixed;
+          bottom: 0
+    }
