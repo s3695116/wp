@@ -1,0 +1,325 @@
+/* Insert your styles here */
+	body
+	{
+        background-image: url(../../../media/Background.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    header img
+    {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 10%;
+        width: 20%;
+        height: 40px;
+    }
+    nav
+    {
+        border-bottom: 1px solid grey;
+        border-top: 1px solid grey;
+        overflow: hidden;
+        height: 80px;
+    }
+    nav a.normalLink
+    {
+        float: left;
+        padding: 30px 30px;
+        text-align: center;
+        color: dimgrey;
+        font-family: Arial, Helvetica, sans-serif;
+        text-decoration: none;
+        height: 40px;
+        font-size: 20px;
+    }
+    nav a.normalLink:hover
+    {
+        text-decoration: underline;
+    }
+    nav a.login{
+        float: right;
+        padding: 30px 30px;
+        text-align: center;
+        color: darkgrey;
+        font-family: Arial, Helvetica, sans-serif;
+        text-decoration: none;
+        height: 40px;
+        font-size: 20px;
+    }
+    nav a.login:hover  
+    {
+        text-decoration: underline;
+    }
+
+    article.column1{
+        float: left;
+        width: 30%;
+        padding: 15px;
+        outline-style: dashed;
+        outline-color: dimgrey;
+    }
+    article.column2{
+        float: left;
+        width: 30%;
+        padding: 15px;
+        outline-style: dashed;
+        outline-color: dimgrey;
+    }
+    article.column3{
+        float: left;
+        width: 30%;
+        padding: 15px;
+        outline-style: dashed;
+        outline-color: dimgrey;
+    }
+    article.row::after{
+        content: "";
+        display: table;
+        clear: both;
+    }
+
+
+    article.shoes{
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+    }
+    article.shoes div.gallery{
+        float: left;
+        margin: 5px;
+        width: 300px;
+    }
+    article.shoes div.gallery img{
+        width: 100%;
+        height: 166px;
+    }
+    article.shoes div.gallery img:hover{
+        box-shadow: 1px 1px grey;
+    }
+    article.shoes div.description{
+        padding: 15px;
+        text-align: center;
+    }
+
+
+    main.apparel{
+        margin: auto;
+        float: left;
+        width: 100%;
+        text-align: center;
+    }
+    article.apparel
+    {
+          margin-left: auto;
+          margin-right: auto;
+          width: 50%;
+    }
+    article.apparel div.gallery{
+        float: left;
+        margin: 5px;
+        width: 300px;
+    }
+    article.apparel div.gallery img{
+        width: 100%;
+        height: auto;
+    }
+    article.apparel div.gallery img:hover{
+        box-shadow: 1px 1px grey;
+    }
+    article.apparel div.description{
+        padding: 15px;
+        text-align: center;
+    }
+
+
+    article.product {
+        position: relative;
+        margin: 16px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 70%;
+        height: 600px;
+    }
+    article.product div.img{
+        position: absolute;
+        left: 0;
+        margin: 16px;
+        width: 40%;
+        height: 70%;
+    }
+    article.product div.img img{
+        overflow: auto;
+    }
+    article.product div.desc{
+        position: absolute;
+        right: 0;
+        margin: 16px;
+        width: 50%;
+        height: 70%;
+        text-align: center;
+    }
+    article.product div.desc p{
+        font-family: "Times New Roman", Times, serif;
+    }
+
+
+    article.login{
+        position: relative;
+        margin: 16px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 100px;
+        width: 25%;
+        height: 600px;
+    }
+    input.login[type=email]{
+        width: 100%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid blue;
+        border-radius: 4px;
+    }
+    input.login[type=password]{
+        width: 100%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid blue;
+        border-radius: 4px;
+    }
+    input.login[type=submit]{
+        background-color: white;
+        border: 1px solid blue;
+        width: 108%;
+        padding: 12px 20px;
+        display: inline-block;
+        border-radius: 4px;
+        margin: 8px 0;
+        cursor: pointer;
+    }
+
+    footer
+    {
+          position: fixed;
+          bottom: 0
+    }
+
+
+
+input:not([type]),
+input.checkout[type=password],
+input.checkout[type=email],
+input.checkout[type=url],
+input.checkout[type=time],
+input.checkout[type=date],
+input.checkout[type=datetime],
+input.checkout[type=datetime-local],
+input.checkout[type=tel],
+input.checkout[type=number],
+input.checkout[type=search],
+textarea.textarea {
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #9e9e9e;
+    border-radius: 0;
+    outline: none;
+    height: 3rem;
+    width: 100%;
+    font-size: 1rem;
+    margin: 0 0 20px 0;
+    padding: 0;
+    box-shadow: none;
+    box-sizing: content-box;
+    transition: all 0.3s;
+}
+
+
+
+.container {
+    margin: 0 auto;
+    max-width: 1280px;
+    width: 90%;
+}
+.product-detail{
+	border: 1px solid #4a4b4c;
+border-radius: 5px;
+padding: 16px;
+}
+
+.typical-name-1 {
+    position: relative;
+    color: #919eaa;
+    font-size: 28px;
+    font-weight: 600;
+    text-align: left;
+    height: 40px;
+    line-height: 40px;
+}
+
+#checkoutBox{
+	background-color: #ededeb;
+	position: relative;
+	margin-bottom: 20px;
+	padding: 20px;
+	box-sizing: border-box;
+}
+
+.form-input {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-justify-content: center;
+    -webkit-align-items: center;
+}
+input.text-input {
+    width: 340px;
+    height: 40px;
+    box-sizing: border-box;
+
+    line-height: 46px;
+    background-color: #d6d6d1;
+    font-size: 14px;
+    text-indent: 5px;
+    border: 1px solid #3a4056;
+    border-radius: 2px;
+    text-indent: 20px;
+    resize: none;
+}
+
+#cartBox{
+border-radius:5px;overflow:hidden;
+    background-color: #ededeb;
+    min-height: 800px;
+    position: relative;
+    margin-bottom: 20px;
+    padding: 20px;
+    box-sizing: border-box;
+
+}
+.cart-button {
+    padding: 20px;
+    float: right;
+}
+
+.btn-cart{
+font-size: 14px;
+height:30px;
+
+}
+
+hr {
+    border: none;
+    border-top: 1px solid #3f4760;
+    height: 0;
+}
+div.cartbox{
+    padding-top: 40px;
+    height:700px;
+}
+
